@@ -1,0 +1,138 @@
+/*
+custom styles
+*/
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+/* General */
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    width: 99%;
+    height: auto;
+    padding: 15px;
+    position: relative;
+    margin: 0 5px; 
+}
+
+/* header */
+
+.logo {
+    max-height: 150px;
+    max-width: 600px;
+    position: relative;
+    padding-left: 200px;
+    
+}
+
+.nav-btn {
+    position: absolute;
+    top: 20%;
+    right: 5%;
+}
+
+/* main content */
+
+.title {
+    text-align: center;
+}
+
+.char-selector {
+    position: relative;
+}
+
+.char-selector h3 {
+    position: absolute;
+    top: 5%;
+    left: 35%;
+}
+
+.char {
+    position: absolute;
+    border-radius: 30px;
+}
+
+.c1 {
+    border: 2px solid #66f52e;
+    top: 800px;
+    left: 10%;
+    -webkit-animation-name: c1Movement;  /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 4s;  /* Safari 4.0 - 8.0 */    
+    -webkit-animation-fill-mode: forwards; /* Safari 4.0 - 8.0 */
+    -webkit-animation-delay: 1s; /* Safari 4.0 - 8.0 */
+    animation-name: c1Movement;
+    animation-duration: 4s;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+}
+
+.c2 {
+    border: 2px solid rgb(255, 8, 8);
+    top: 800px;
+    left: 10%;
+    -webkit-animation-name: c2Movement;  /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 4s;  /* Safari 4.0 - 8.0 */    
+    -webkit-animation-fill-mode: forwards; /* Safari 4.0 - 8.0 */
+    -webkit-animation-delay: 2s; /* Safari 4.0 - 8.0 */
+    animation-name: c2Movement;
+    animation-duration: 4s;
+    animation-delay: 2s;
+    animation-fill-mode: forwards;
+}
+
+.c3 {
+    border: 2px solid rgb(66, 16, 204);
+    top: 800px;
+    left: 10%;
+    -webkit-animation-name: c3Movement;  /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 4s;  /* Safari 4.0 - 8.0 */    
+    -webkit-animation-fill-mode: forwards; /* Safari 4.0 - 8.0 */
+    -webkit-animation-delay: 3s; /* Safari 4.0 - 8.0 */
+    animation-name: c3Movement;
+    animation-duration: 4s;
+    animation-delay: 3s;
+    animation-fill-mode: forwards;
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes c1Movement {
+    from {top: 800px;}
+    to {top: 75px; left: 25%; }
+}
+
+@keyframes c1Movement {
+    from {top: 800px;}
+    to {top: 75px; left: 25%; }
+}
+
+@-webkit-keyframes c2Movement {
+    from {top: 800px;}
+    to {top: 90px; left: 40%; }
+}
+
+@keyframes c2Movement {
+    from {top: 800px;}
+    to {top: 90px; left: 40%; }
+}
+
+@-webkit-keyframes c3Movement {
+    from {top: 800px;}
+    to {top: 75px; left: 55%; }
+}
+
+@keyframes c3Movement {
+    from {top: 800px;}
+    to {top: 75px; left: 55%; }
+}
+
+
+
+/*
+Different icons being used
+fa fa-times-circle-o
+fa fa-close
+fa fa-navicon
+fa fa-angle-double-right
+fa fa-angle-double-left
+*/
