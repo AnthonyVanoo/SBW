@@ -51,7 +51,16 @@ body {
 .char {
     position: absolute;
     border-radius: 30px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
+
+.char:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.336), 0 6px 20px 0 rgba(0, 0, 0, 0.301);
+    height: 195px;
+    width: 160px;
+}
+
+/* animations */
 
 .c1 {
     border: 2px solid #66f52e;
@@ -70,7 +79,7 @@ body {
 .c2 {
     border: 2px solid rgb(255, 8, 8);
     top: 800px;
-    left: 10%;
+    left: 30%;
     -webkit-animation-name: c2Movement;  /* Safari 4.0 - 8.0 */
     -webkit-animation-duration: 4s;  /* Safari 4.0 - 8.0 */    
     -webkit-animation-fill-mode: forwards; /* Safari 4.0 - 8.0 */
@@ -84,7 +93,7 @@ body {
 .c3 {
     border: 2px solid rgb(66, 16, 204);
     top: 800px;
-    left: 10%;
+    left: 70%;
     -webkit-animation-name: c3Movement;  /* Safari 4.0 - 8.0 */
     -webkit-animation-duration: 4s;  /* Safari 4.0 - 8.0 */    
     -webkit-animation-fill-mode: forwards; /* Safari 4.0 - 8.0 */
