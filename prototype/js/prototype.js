@@ -1,3 +1,6 @@
+/*
+ * start page
+ */
 /* base declarations */
 let char1 = document.getElementById("c1");
 let char2 = document.getElementById("c2");
@@ -28,10 +31,15 @@ function charSelect(x) {
                 }
             }
         }
-        alert("You selected character" + x )
+        
     } else if ( x == 2 ) {
         alert("You selected character" + x )
     } else {
         alert("You selected character" + x )
     }
 }
+
+/* 
+* story page
+*/
+

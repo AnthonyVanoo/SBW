@@ -1,11 +1,22 @@
 /*
 custom styles
 */
+/*
+Different icons being used
+fa fa-times-circle-o
+fa fa-close
+fa fa-navicon
+fa fa-angle-double-right
+fa fa-angle-double-left
+*/
 @import url('https://fonts.googleapis.com/css?family=Roboto');
+
+
 
 /* General */
 body {
     font-family: 'Roboto', sans-serif;
+    margin: 0;
 }
 
 .container {
@@ -15,6 +26,8 @@ body {
     position: relative;
     margin: 0 5px; 
 }
+
+/* start page */
 
 /* header */
 
@@ -30,6 +43,7 @@ body {
     position: absolute;
     top: 20%;
     right: 5%;
+    font-size:28px
 }
 
 /* main content */
@@ -135,13 +149,31 @@ body {
     to {top: 75px; left: 55%; }
 }
 
+/* Story page */
 
+.pageContainer {
+    width: 97vw;
+    height: 90vh;
+    padding: 15px;
+    border-style: solid;
+    position: relative;
+    margin: 0 5px; 
+}
 
-/*
-Different icons being used
-fa fa-times-circle-o
-fa fa-close
-fa fa-navicon
-fa fa-angle-double-right
-fa fa-angle-double-left
-*/
+.sentance {
+    text-align: center;
+    width: 100%;
+    position: absolute;
+}
+
+.back {
+    position: absolute;
+    top: 50%;
+    right: 15px;
+}
+
+.forward {
+    position: absolute;
+    top: 50%;
+}
+
