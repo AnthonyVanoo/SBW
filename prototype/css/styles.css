@@ -166,14 +166,23 @@ body {
     position: absolute;
 }
 
+.charBumblebee {
+    position: absolute;
+    top: 400px;
+    left: 120px;
+}
+
 .back {
     position: absolute;
+    font-size: 1.8em;
     top: 50%;
-    right: 15px;
+    left: 15px;
 }
 
 .forward {
     position: absolute;
     top: 50%;
+    right: 15px;
+    font-size: 1.8em;
 }
 
