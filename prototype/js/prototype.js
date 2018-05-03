@@ -1,18 +1,23 @@
 /*
  * start page
  */
+
+
 /* base declarations */
+let main = document.getElementById("mainContent");
 let char1 = document.getElementById("c1");
 let char2 = document.getElementById("c2");
 let char3 = document.getElementById("c3");
+let charInfo = document.getElementById("charInfo");
+
 
 // event listeners
 char1.addEventListener('click', function(){charSelect(1);} );
 char2.addEventListener('click', function(){charSelect(2);} );
 char3.addEventListener('click', function(){charSelect(3);} );
 
-function charSelect(x) {
-    if ( x == 1 ) {
+function charSelect(char) {
+    if ( char == 1 ) {
         /* 
         * animate the char selected to fade
         * animate the actual char to appear
@@ -21,63 +26,68 @@ function charSelect(x) {
         fade();
         function fade() {
             let opas = 99;
-            let id = setInterval(frame, 1);
+            let id = setInterval(frame, 10);
             function frame() {
-                if (opas == 0) {
+                if (opas == 10) {
                     clearInterval(id);
+                    char1.style.visibility = "hidden";
+                    char2.style.visibility = "hidden";
+                    char3.style.visibility = "hidden";
+                    charInfo.textContent = "Pick a start";
+                    charOptions(1);
                 } else {
                     opas--; 
                     char1.style.opacity = "0." + opas;
+                    char2.style.opacity = "0." + opas;
+                    char3.style.opacity = "0." + opas;
                 }
             }
         }
         
-    } else if ( x == 2 ) {
+    } else if ( char == 2 ) {
         alert("You selected character" + x )
     } else {
         alert("You selected character" + x )
     }
 }
 
-/* 
-* story page
-*/
-
-let backBtn = document.getElementById("backButton");
-let forwardBtn = document.getElementById("forwardButton");
-let pageDiv = document.getElementById("page");
-let currentPage = 0;
-let pageArray = [];
-
-backBtn.addEventListener('click', previousPage);
-forwardBtn.addEventListener('click', nextPage);
-
-class page {
-    constructor(sentance,character,background) {
-        this.sentance = sentance;
-        this.character = character;
-        this.background = background;
-        this.back = "??";
-        this.forward = "??";
-    }
-}
-
-pageArray[0] = new page("Bumblebee decided to eat his favorite flower","simpleBee.png","beeHome.png");
-
-function nextPage() {
-    if (currentPage = 0) {
-        currentPage++;
-        let pageContent = "";
-        let pageIH = "";
-        pageContent += '<div class="sentance">';
-        pageContent += '<h1>' + pageArray[currentPage].sentance + '</h1>';
-        pageContent += ' </div>';
-        pageContent += '<img src="img/chars/simpleBee.png" class="charBumblebee" alt="Bumblebee">';
-        pageContent += '<button id="backButton" class="back fa fa-angle-double-right"></button>';
-        pageContent += '<button id="forwardButton" class="forward fa fa-angle-double-left"></button>';
-
-        pageIH.innerHTML = pageContent;
-        pageDiv.appendChild(pageIH);
-
+function charOptions(char) {
+    if (char == 1 ) {
+        let options = "";
+        
+        options += '<div class="title">';
+        options += '<h1>Start Your Story</h1>';
+        options += '</div>';
+        options += '<h3 id="selInfo">Where to?</h3>';
+        options += '<div id="opt1" class="optionsContainer" style=" visibility: hidden;">';
+        options += '<img src="img/chars/simpleBee.png">';
+        options += '<a href="storypage.html" class="storySelection1">';
+        options += '<h2>Favorite Flower</h2>';
+        options += '</a>';
+        options += '<a href="storypage.html" id="opt2" class="storySelection2" style="visibility: hidden;">';
+        options += '<h2>Flower Field</h2>';
+        options += '</a>';
+        options += '</div>';
+        
+        main.innerHTML = options;
+        
+        appear();
+        function appear() {
+            let opas = 10;
+            let inval2 = setInterval(frame, 50);
+            function frame() {
+                if (opas == 99) {
+                    clearInterval(inval2);
+                    
+                } else {
+                    opas++;
+                    document.getElementById("opt1").style.opacity = "0." + opas;
+                    document.getElementById("opt1").style.visibility = "visible";
+                    //document.getElementById("opt2").style.opacity = "0." + opas;
+                    document.getElementById("opt2").style.visibility = "visible";
+                    
+                }
+            }
+        }
     }
 }

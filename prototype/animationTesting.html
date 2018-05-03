@@ -9,25 +9,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" type="text/css" media="screen" href="css/styles.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="css/animationTesting.css" />
     
 </head>
 <body>
 
     <div class="container">
         <!--<img class="logo" src="img/siteAssets/logo.png" alt="storybook website logo">-->
-        <button class="nav-btn"><i class="fa fa-navicon"></i></button>
+        <button id="hoverBtn">Hover</button>
+        <button id="flyBtn">Fly</button>
+        <button id="enterBtn">enter</button>
+        <button id="landBtn">Land</button>
+        <button id="jumpBtn">jump</button>
     </div>
         
     <div id="page" class="pageContainer">
         <div class="sentance">
-            <h1>The bee woke up and was ready to head out</h1>
+            <h1>Bumblebee testing animations</h1>
         </div>
-        <img src="img/chars/simpleBee.png" class="charBumblebee" alt="Bumblebee">
-        <button id="backButton" class="back fa fa-angle-double-left"></button>
-        <button id="forwardButton" onclick="nextPage()" class="forward fa fa-angle-double-right"></button>
+        <img id="bumblebee" src="img/chars/simpleBee.png" class="beeFly" alt="Bumblebee">
     </div>
 
 
+    <script src="js/animationTesting.js"></script>
     <script src="js/prototypeSP.js"></script>
 </body>
 </html>
