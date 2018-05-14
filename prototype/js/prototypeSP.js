@@ -93,7 +93,7 @@ function nextPage() {
         pageContent += '<div class="sentance">';
         pageContent += '<h1>' + pageArray[currentPage].sentance + '</h1>';
         pageContent += ' </div>';
-        pageContent += '<img src="img/chars/simpleBee.png" class="charBumblebee" alt="Bumblebee">';
+        pageContent += '<img id="bee" src="img/chars/simpleBee.png" class="charBumblebee" alt="Bumblebee">';
         pageContent += '<button id="backButton" class="back fa fa-angle-double-left"></button>';
         pageContent += '<button id="forwardButton" onclick="nextPage()" class="forward fa fa-angle-double-right"></button>';
         
@@ -101,8 +101,10 @@ function nextPage() {
         * leaving page animation
         */
 
+
         pageDiv.innerHTML = pageContent;
         pageState = "end";
+        document.getElementById("bee").classList.add("beeFly");
         
     }
     if (currentPage == 2) {

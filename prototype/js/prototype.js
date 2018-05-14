@@ -26,7 +26,7 @@ function charSelect(char) {
         fade();
         function fade() {
             let opas = 99;
-            let id = setInterval(frame, 10);
+            let id = setInterval(frame, 15);
             function frame() {
                 if (opas == 10) {
                     clearInterval(id);
@@ -45,9 +45,9 @@ function charSelect(char) {
         }
         
     } else if ( char == 2 ) {
-        alert("You selected character" + x )
+        alert("You selected character" + char )
     } else {
-        alert("You selected character" + x )
+        alert("You selected character" + char )
     }
 }
 
@@ -74,7 +74,7 @@ function charOptions(char) {
         appear();
         function appear() {
             let opas = 10;
-            let inval2 = setInterval(frame, 50);
+            let inval2 = setInterval(frame, 15);
             function frame() {
                 if (opas == 99) {
                     clearInterval(inval2);
@@ -83,7 +83,7 @@ function charOptions(char) {
                     opas++;
                     document.getElementById("opt1").style.opacity = "0." + opas;
                     document.getElementById("opt1").style.visibility = "visible";
-                    //document.getElementById("opt2").style.opacity = "0." + opas;
+                    document.getElementById("opt2").style.opacity = "0." + opas;
                     document.getElementById("opt2").style.visibility = "visible";
                     
                 }
