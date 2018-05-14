@@ -18,6 +18,16 @@ body {
     font-family: 'Roboto', sans-serif;
     margin: 0;
     overflow: hidden;
+    background: src("/img/backgrounds/forrest.png");
+}
+
+.bg {
+    z-index: -1;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
 }
 
 .container {
