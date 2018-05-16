@@ -9,13 +9,20 @@ fa fa-navicon
 fa fa-angle-double-right
 fa fa-angle-double-left
 */
-@import url('https://fonts.googleapis.com/css?family=Roboto');
+/* @import url('https://fonts.googleapis.com/css?family=Roboto');
+font-family: 'Kavivanar', cursive;
+font-family: 'Permanent Marker', cursive;
+font-family: 'Concert One', cursive;
+font-family: 'Fredoka One', cursive;
+font-family: 'Chewy', cursive;
+*/
+@import url('https://fonts.googleapis.com/css?family=Chewy|Concert+One|Fredoka+One|Kavivanar|Permanent+Marker');
 
 
 
 /* General */
 body {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Permanent Marker', cursive;
     margin: 0;
     overflow: hidden;
     background: src("/img/backgrounds/forrest.png");

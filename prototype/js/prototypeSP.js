@@ -139,6 +139,7 @@ function nextPage() {
     }
     if (currentPage == 4) {
         let pageContent = "";
+        pageContent += '<img class="bg" src="img/backgrounds/forest.png">';
         pageContent += '<div class="sentance">';
         pageContent += '<h1>' + pageArray[currentPage].sentance + '</h1>';
         pageContent += ' </div>';
@@ -150,6 +151,7 @@ function nextPage() {
         pageState = "mid";
         if (subPage == 1 ) {
             let pageContent = "";
+            pageContent += '<img class="bg" src="img/backgrounds/forest.png">';
             pageContent += '<div class="sentance">';
             pageContent += '<h1>' + subPageArray1[0].sentance + '</h1>';
             pageContent += ' </div>';
@@ -164,6 +166,7 @@ function nextPage() {
         }
         if (subPage == 2 ) {
             let pageContent = "";
+            pageContent += '<img class="bg" src="img/backgrounds/forest.png">';
             pageContent += '<div class="sentance">';
             pageContent += '<h1>' + subPageArray1[1].sentance + '</h1>';
             pageContent += ' </div>';
@@ -182,6 +185,7 @@ function nextPage() {
     }
     if (currentPage == 5) {
         let pageContent = "";
+        pageContent += '<img class="bg" src="img/backgrounds/forest.png">';
         pageContent += '<div class="sentance">';
         pageContent += '<h1>' + pageArray[currentPage].sentance + '</h1>';
         pageContent += ' </div>';
@@ -193,6 +197,7 @@ function nextPage() {
         pageState = "mid";
         if (subPage == 1 ) {
             let pageContent = "";
+            pageContent += '<img class="bg" src="img/backgrounds/forest.png">';
             pageContent += '<div class="sentance">';
             pageContent += '<h1>' + subPageArray2[0].sentance + '</h1>';
             pageContent += ' </div>';
@@ -207,6 +212,7 @@ function nextPage() {
         }
         if (subPage == 2 ) {
             let pageContent = "";
+            pageContent += '<img class="bg" src="img/backgrounds/forest.png">';
             pageContent += '<div class="sentance">';
             pageContent += '<h1>' + subPageArray2[1].sentance + '</h1>';
             pageContent += ' </div>';
@@ -221,6 +227,7 @@ function nextPage() {
         }
         if (subPage == 3 ) {
             let pageContent = "";
+            pageContent += '<img class="bg" src="img/backgrounds/forest.png">';
             pageContent += '<div class="sentance">';
             pageContent += '<h1>' + subPageArray2[2].sentance + '</h1>';
             pageContent += ' </div>';
@@ -235,6 +242,7 @@ function nextPage() {
         }
         if (subPage == 4 ) {
             let pageContent = "";
+            pageContent += '<img class="bg" src="img/backgrounds/forest.png">';
             pageContent += '<div class="sentance">';
             pageContent += '<h1>' + subPageArray2[3].sentance + '</h1>';
             pageContent += ' </div>';
@@ -249,6 +257,7 @@ function nextPage() {
         }
         if (subPage == 5 ) {
             let pageContent = "";
+            pageContent += '<img class="bg" src="img/backgrounds/forest.png">';
             pageContent += '<div class="sentance">';
             pageContent += '<h1>' + subPageArray2[4].sentance + '</h1>';
             pageContent += ' </div>';
@@ -263,6 +272,7 @@ function nextPage() {
         }
         if (subPage == 6 ) {
             let pageContent = "";
+            pageContent += '<img class="bg" src="img/backgrounds/forest.png">';
             pageContent += '<div class="sentance">';
             pageContent += '<h1>' + subPageArray2[5].sentance + '</h1>';
             pageContent += ' </div>';
