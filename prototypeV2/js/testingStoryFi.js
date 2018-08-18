@@ -1,5 +1,29 @@
 const MAXPAGECOUNT = 17;
 
+/*  UI  */
+let soundToggleBtn = document.getElementById("soundToggleButton");
+let soundBanIcon = document.getElementById("banIcon");
+let siteAudio = document.getElementById("songAudio");
+let sound = false;
+
+soundToggleBtn.addEventListener('click', soundToggle);
+
+function soundToggle() {
+    if (!soundToggle) {
+        soundToggle = true;
+        soundBanIcon.style.visibility = "visible";
+        siteAudio.muted = true;
+        
+    } else {
+        soundToggle = false;
+        soundBanIcon.style.visibility = "hidden";
+        siteAudio.muted = false;
+    }
+    console.log(soundToggle);
+}
+
+/* story */
+
 let pageDiv = document.getElementById("page");
 
 let pageJson = "/json/storyFI.json";
@@ -62,3 +86,4 @@ function newPage(page) {
         pageDiv.innerHTML = pageContent;
     }
 }
+

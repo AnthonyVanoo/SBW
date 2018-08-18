@@ -68,6 +68,7 @@ h1 {
     top: 20px;
     right: 10px;
     z-index: 2;
+    height: 45px;
 }
 
 .volumeButton {
@@ -89,12 +90,23 @@ h1 {
     color: red;
 }
 
+#langButton {
+    position: absolute;
+    top: 20px;
+    left: auto;
+    right: 120px;
+    z-index: 2;
+    font-size: 1.2rem;
+    height: 45px;
+    
+}
+
 #menu {
     position: absolute;
     top: 60px;
     left: auto;
     right: 20px;
-    z-index: 2;
+    z-index: 3;
     color: white;
     border: none;
     background-color: rgba(0,0,0,0.2);
@@ -276,6 +288,7 @@ h1 {
 .sentance {
     text-align: center;
     width: 100%;
+    margin-top: 40px;
     position: absolute;
     color: white;
     -webkit-text-stroke: .7px black;
@@ -287,6 +300,13 @@ h1 {
     font-size: 1.8em;
     top: 50%;
     left: 15px;
+    background-color: rgba(0,0,0,.1);
+    color: white;
+    border: none;
+}
+
+.back:hover {
+    background-color: rgba(0,0,0,.3);
 }
 
 .forward {
@@ -294,6 +314,13 @@ h1 {
     top: 50%;
     right: 15px;
     font-size: 1.8em;
+    background-color: rgba(0,0,0,.1);
+    color: white;
+    border: none;
+}
+
+.forward:hover {
+    background-color: rgba(0,0,0,.3);
 }
 
 .option1 {
@@ -321,6 +348,13 @@ h1 {
     top: 50%;
     left: 40%;
     width: 18%;
+    animation: beeP0 1.3s ease-in-out normal; 
+}
+
+@keyframes beeP0 {
+    0% {top: 45%; left: 50%; transform: rotate(-20deg);}
+    50% { top: 40%; left: 45%; transform: rotate(-10deg);}
+    100% {top: 50%; left: 40%; transform: rotate(0deg);}
 }
 
 .beePage1 {
@@ -328,6 +362,13 @@ h1 {
     top: 50%;
     left: 40%;
     width: 18%;
+    animation: beeP1 1.3s ease-in-out alternate infinite; 
+}
+
+@keyframes beeP1 {
+    0% {top: 45%; left: 50%; transform: rotate(-20deg);}
+    50% { top: 40%; left: 45%; transform: rotate(-10deg);}
+    100% {top: 50%; left: 40%; transform: rotate(0deg);}
 }
 
 .beePage2 {

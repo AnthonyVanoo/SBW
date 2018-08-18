@@ -13,13 +13,14 @@
     
 </head>
 <body>
-       <button id="ControlPanelButton" class="btn btn-dark" type="button" data-toggle="collapse" data-target="#menu" aria-expanded="false" aria-controls="#menu"><i class="fas fa-bars" style="font-size:28px"></i></button>
-        <div id="menu" class="dropdown-menu col-1 collapse text-center">
-		    <a class="dropdown-item" href="#">Stories</a>
-            <a class="dropdown-item" href="#">Explore</a>
-            <a class="dropdown-item" href="#">About</a>
-        </div>
-        <button class="volumeButton btn btn-dark" onclick="soundToggle();"><i class="fas fa-volume-up"></i><i class="soundOff fas fa-ban" style="visibility: hidden;"></i></button>
+    <audio id="songAudio" autoplay loop muted><source src="sound/Goat.mp3" type="audio/mpeg"></audio>
+    <button id="ControlPanelButton" class="btn btn-dark" type="button" data-toggle="collapse" data-target="#menu" aria-expanded="false" aria-controls="#menu"><i class="fas fa-bars" style="font-size:28px"></i></button>
+    <div id="menu" class="dropdown-menu col-1 collapse text-center">
+        <a class="dropdown-item" href="#">Stories</a>
+        <a class="dropdown-item" href="#">Explore</a>
+        <a class="dropdown-item" href="#">About</a>
+    </div>
+    <button id="soundToggleButton" class="volumeButton btn btn-dark"><i class="fas fa-volume-up"></i><i id="banIcon" class="soundOff fas fa-ban" style="visibility: visible;"></i></button>
     <div id="page" class="pageContainer">
        
         <img class="bg" src="img/backgrounds/beehouseinside.jpg">

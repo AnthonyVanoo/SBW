@@ -12,7 +12,7 @@ let charInfo = document.getElementById("charInfo");
 let soundToggleBtn = document.getElementById("soundToggleButton");
 let soundBanIcon = document.getElementById("banIcon");
 let siteAudio = document.getElementById("songAudio");
-let sound = true;
+let sound = false;
 
 
 // event listeners
@@ -93,13 +93,13 @@ function charOptions(char) {
 }
 
 function soundToggle() {
-    if (soundToggle) {
-        soundToggle = false;
+    if (!soundToggle) {
+        soundToggle = true;
         soundBanIcon.style.visibility = "visible";
         siteAudio.muted = true;
         
     } else {
-        soundToggle = true;
+        soundToggle = false;
         soundBanIcon.style.visibility = "hidden";
         siteAudio.muted = false;
     }

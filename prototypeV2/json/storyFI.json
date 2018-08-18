@@ -87,7 +87,7 @@
         "pageNumber":12,
         "background":"<img class='bg' src='img/backgrounds/deepforest.jpg'>",
         "sentance":"<div class='sentance'> <h1>Mehiläinen kysyy toukalta, onko hän nähnyt kukkaa</h1> </div>",
-        "character":"<img src='img/chars/bee.png' class='beePage12' alt='Bumblebee'>",
+        "character":"<img src='img/chars/beeAskR.png' class='beePage12' alt='Bumblebee'>",
         "special":"yes",
         "specialContent":"<img src='img/chars/caterpillar.png' class='caterpillarPage12' alt='caterpillar'>"
     },
@@ -95,7 +95,7 @@
         "pageNumber":13,
         "background":"<img class='bg' src='img/backgrounds/deepforest.jpg'>",
         "sentance":"<div class='sentance'> <h1>Toukka ei ole nähnyt kukkaa, mutta hän tarjoutuu auttamaan kukan etsimisessä</h1> </div>",
-        "character":"<img src='img/chars/beeAskR.png' class='beePage13' alt='Bumblebee'>",
+        "character":"<img src='img/chars/bee.png' class='beePage13' alt='Bumblebee'>",
         "special":"yes",
         "specialContent":"<img src='img/chars/caterpillar.png' class='caterpillarPage13' alt='caterpillar'>"
     },

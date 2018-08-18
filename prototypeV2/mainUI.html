@@ -4,8 +4,8 @@
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="author" content="Anthony Vanoostendorp">
-    <meta name="description" content="prototype for character selection and page turning">
-    <title>Storybook website | interactive stories you can read with yor kids</title>
+    <meta name="description" content="prototype website for stories">
+    <title>Storybook website | interactive stories you can read with your kids</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
@@ -13,7 +13,7 @@
     
 </head>
 <body>
-    <audio id="songAudio" autoplay loop><source src="sound/Ukulele_Beach.mp3" type="audio/mpeg"></audio>
+    <audio id="songAudio" autoplay loop muted><source src="sound/Ukulele_Beach.mp3" type="audio/mpeg"></audio>
     <img class="bg" src="img/backgrounds/forest.png">
     <div class="startContainer">
         <img class="logo" src="img/siteAssets/logo.png" alt="storybook website logo">
@@ -23,7 +23,11 @@
             <a class="dropdown-item" href="#">Explore</a>
             <a class="dropdown-item" href="#">About</a>
         </div>
-        <button id="soundToggleButton" class="volumeButton btn btn-dark"><i class="fas fa-volume-up"></i><i id="banIcon" class="soundOff fas fa-ban" style="visibility: hidden;"></i></button>
+        <button id="soundToggleButton" class="volumeButton btn btn-dark"><i class="fas fa-volume-up"></i><i id="banIcon" class="soundOff fas fa-ban" style="visibility: visible;"></i></button>
+        <div id="langButton" class="btn-group" role="group" aria-label="Language choice">
+            <button type="button" class="btn btn-dark">EN</button>
+            <button type="button" class="btn btn-dark">FI</button>
+        </div>
     </div>
 
     <div id="mainContent" class="startContainer">
