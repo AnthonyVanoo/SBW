@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="author" content="Anthony Vanoostendorp">
+    <meta name="description" content="prototype for character selection and page turning">
+    <title>Storybook website | interactive stories you can read with your kids</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/styles.css" />
+    
+</head>
+<body>
+    <div id="page" class="pageContainer">
+            <img class="bg" src="img/backgrounds/beehouseoutside.png">
+    <!--div class="container">
+        <<img class="logo" src="img/siteAssets/logo.png" alt="storybook website logo">>
+        <button class="nav-btn"><i class="fa fa-navicon"></i></button>
+    </div-->
+        
+    
+        <div class="sentance">
+            <h1>The bee woke up and was ready to head out</h1>
+        </div>
+        <img src="img/chars/Bee.png" class="charBumblebee" alt="Bumblebee">
+        <button id="backButton" onclick="prevPage()" class="back fa fa-angle-double-left"></button>
+        <button id="forwardButton" onclick="nextPage()" class="forward fa fa-angle-double-right"></button>
+    </div>
+
+
+    <script src="js/testingJson.js"></script>
+</body>
+</html>

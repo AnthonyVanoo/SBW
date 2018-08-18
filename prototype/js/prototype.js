@@ -61,10 +61,10 @@ function charOptions(char) {
         options += '<h3 id="selInfo">Where to?</h3>';
         options += '<div id="opt1" class="optionsContainer" style=" visibility: hidden;">';
         options += '<img src="img/chars/bee.png">';
-        options += '<a href="storypage.html" class="storySelection1">';
+        options += '<a href="storyTestingFI.html" class="storySelection1">';
         options += '<h2>Favorite Flower</h2>';
         options += '</a>';
-        options += '<a href="storypage.html" id="opt2" class="storySelection2" style="visibility: hidden;">';
+        options += '<a href="storyTestingFI.html" id="opt2" class="storySelection2" style="visibility: hidden;">';
         options += '<h2>Flower Field</h2>';
         options += '</a>';
         options += '</div>';

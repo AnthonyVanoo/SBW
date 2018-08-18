@@ -74,9 +74,7 @@ function nextPage() {
     if (currentPage == 0) {
         let pageContent = "";
         pageContent += '<img class="bg" src="img/backgrounds/beehouseoutside.png">';
-        pageContent += '<div class="sentance">';
-        pageContent += '<h1>' + pageArray[currentPage].sentance + '</h1>';
-        pageContent += ' </div>';
+        pageContent += '<div class="sentance"> <h1>' + pageArray[currentPage].sentance + '</h1> </div>';
         pageContent += '<img src="img/chars/bee.png" class="charBumblebee" alt="Bumblebee">';
         pageContent += '<button id="backButton" class="back fa fa-angle-double-left"></button>';
         pageContent += '<button id="forwardButton" onclick="nextPage()" class="forward fa fa-angle-double-right"></button>';

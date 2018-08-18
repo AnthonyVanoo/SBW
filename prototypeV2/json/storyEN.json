@@ -1,0 +1,17 @@
+{
+ "pages":
+    [
+    { 
+        "pageNumber":1,
+        "background":"<img class='bg' src='img/backgrounds/beehouseoutside.png'>",
+        "sentance":"<div class='sentance'> <h1>Bumblebee wants to find it's favorite flower</h1> </div>",
+        "character":"<img src='img/chars/bee.png' class='charBumblebee' alt='Bumblebee'>"
+    },
+    { 
+        "pageNumber":2,
+        "background":"<img class='bg' src='img/backgrounds/beehouseoutside.png'>",
+        "sentance":"<div class='sentance'> <h1>These flowers are hard to find but bumblebee thinks it is worth it!</h1> </div>",
+        "character":"<img src='img/chars/bee.png' class='charBumblebee' alt='Bumblebee'>"
+    }
+	]
+}
