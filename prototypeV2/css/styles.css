@@ -130,28 +130,32 @@ h1 {
     text-align: center;
 }
 
+.charInfo {
+    
+}
+
 .char-selector {
     position: relative;
 }
 
 .char-selector h3 {
-    position: absolute;
-    top: 5%;
-    left: 35%;
+    padding-top: 10px;
+    font-size: 1.5rem;
+    text-align: center;
 }
 
 .char {
     position: absolute;
     border-radius: 30px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    height: 200px;
-    width: 172px;
+    height: 195px;
+    width: 160px;
 }
 
 .char:hover {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.336), 0 6px 20px 0 rgba(0, 0, 0, 0.301);
-    height: 195px;
-    width: 160px;
+    height: 200px;
+    width: 172px;
 }
 
 #selInfo {
@@ -160,9 +164,10 @@ h1 {
 
 .optionsContainer {
     position: relative;
+    margin-top: 40px;
     width: 525px;
     height: 200px;
-    left: 30%;
+    left: 35%;
 }
 
 .cancel {
@@ -201,7 +206,7 @@ h1 {
     margin: 10px 0 0 0;
 }
 
-/* animations */
+/* start animations */
 
 .c1 {
     border: 2px solid #66f52e;
@@ -248,32 +253,32 @@ h1 {
 /* Safari 4.0 - 8.0 */
 @-webkit-keyframes c1Movement {
     from {top: 800px;}
-    to {top: 75px; left: 25%; }
+    to {top: 75px; left: 30%; }
 }
 
 @keyframes c1Movement {
     from {top: 800px;}
-    to {top: 75px; left: 25%; }
+    to {top: 75px; left: 30%; }
 }
 
 @-webkit-keyframes c2Movement {
     from {top: 800px;}
-    to {top: 90px; left: 40%; }
+    to {top: 90px; left: 45%; }
 }
 
 @keyframes c2Movement {
     from {top: 800px;}
-    to {top: 90px; left: 40%; }
+    to {top: 90px; left: 45%; }
 }
 
 @-webkit-keyframes c3Movement {
     from {top: 800px;}
-    to {top: 75px; left: 55%; }
+    to {top: 75px; left: 60%; }
 }
 
 @keyframes c3Movement {
     from {top: 800px;}
-    to {top: 75px; left: 55%; }
+    to {top: 75px; left: 60%; }
 }
 
 /* Story page */
@@ -366,9 +371,9 @@ h1 {
 }
 
 @keyframes beeP1 {
-    0% {top: 45%; left: 50%; transform: rotate(-20deg);}
-    50% { top: 40%; left: 45%; transform: rotate(-10deg);}
-    100% {top: 50%; left: 40%; transform: rotate(0deg);}
+    0% {top: 48%; transform: rotate(0deg);}
+    50% { top: 49%; transform: rotate(-5deg);}
+    100% {top: 50%; transform: rotate(0deg);}
 }
 
 .beePage2 {
@@ -376,6 +381,13 @@ h1 {
     top: 55%;
     left: 30%;
     width: 14%;
+    animation: beeP2 2s ease-in-out normal; 
+}
+
+@keyframes beeP2 {
+    0% {top: 54%; left: 55%; width: 10%; transform: rotate(0deg);}
+    50% { top: 49%; ; transform: rotate(-5deg);}
+    100% {top: 55%; left: 30%; width: 14%; transform: rotate(0deg);}
 }
 
 .beePage3 {
@@ -383,13 +395,25 @@ h1 {
     top: 55%;
     left: 30%;
     width: 14%;
+    animation: beeP3 1.4s alternate infinite; 
+}
+
+@keyframes beeP3 {
+    0% {top: 48%; transform: rotate(-4deg);}
+    100% {top: 50%; transform: rotate(-2deg);}
 }
 
 .beePage4 {
     position: absolute;
     top: 40%;
-    left: 15%;
+    left: 18%;
     width: 10%;
+    animation: beeP4 2s normal; 
+}
+
+@keyframes beeP4 {
+    0% {top: 35%; left: 11%; width: 8%}
+    100% {top: 40%; left: 18%; width: 10%; }
 }
 
 .beePage5 {
@@ -397,6 +421,12 @@ h1 {
     top: 50%;
     left: 35%;
     width: 10%;
+    animation: beeP5 1.4s alternate infinite; 
+}
+
+@keyframes beeP5 {
+    0% {top: 48%; transform: rotate(-4deg);}
+    100% {top: 50%; transform: rotate(-2deg);}
 }
 
 .beePage6 {
@@ -404,6 +434,13 @@ h1 {
     top: 30%;
     left: 8%;
     width: 8%;
+    animation: beeP6 4s ease forwards; 
+}
+
+@keyframes beeP6 {
+    0% {top: 35%; left: 0%; width: 7%}
+    40% {top: 25%; left: 5%;}
+    100% {top: 30%; left: 8%; width: 8%; }
 }
 
 .frogPage6 {
@@ -425,6 +462,12 @@ h1 {
     top: 50%;
     left: 40%;
     width: 15%;
+    animation: beeP7 1.4s alternate infinite; 
+}
+
+@keyframes beeP7 {
+    0% {top: 48%; transform: rotate(-4deg);}
+    100% {top: 50%; transform: rotate(-2deg);}
 }
 
 .frogPage7 {
@@ -439,6 +482,12 @@ h1 {
     top: 45%;
     left: 58%;
     width: 13%;
+    animation: beeP8 1.7s alternate infinite; 
+}
+
+@keyframes beeP8 {
+    0% {top: 44%; transform: rotate(-6deg);}
+    100% {top: 45%; transform: rotate(2deg);}
 }
 
 .frogPage8 {
@@ -453,6 +502,12 @@ h1 {
     top: 60%;
     left: 40%;
     width: 14%;
+    animation: beeP9 1.4s alternate infinite; 
+}
+
+@keyframes beeP9 {
+    0% {top: 58%; transform: rotate(-4deg);}
+    100% {top: 60%; transform: rotate(-2deg);}
 }
 
 .frogPage9 {
