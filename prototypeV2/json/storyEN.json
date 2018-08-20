@@ -2,16 +2,130 @@
  "pages":
     [
     { 
+        "pageNumber":0,
+        "background":"<img class='bg' src='img/backgrounds/beehouseinside.jpg'>",
+        "sentance":"<div class='sentance'> <h1>Bubblebee woke up and is hungry</h1> </div>",
+        "character":"<img src='img/chars/beeHungry.png' class='beePage0' alt='Bumblebee'>"
+    },
+    { 
         "pageNumber":1,
-        "background":"<img class='bg' src='img/backgrounds/beehouseoutside.png'>",
-        "sentance":"<div class='sentance'> <h1>Bumblebee wants to find it's favorite flower</h1> </div>",
-        "character":"<img src='img/chars/bee.png' class='charBumblebee' alt='Bumblebee'>"
+        "background":"<img class='bg' src='img/backgrounds/beehouseinside.jpg'>",
+        "sentance":"<div class='sentance'> <h1>Bumblebee wants to find its favorite flower</h1> </div>",
+        "character":"<img src='img/chars/beeWonder.png' class='beePage1' alt='Bumblebee'>"
     },
     { 
         "pageNumber":2,
         "background":"<img class='bg' src='img/backgrounds/beehouseoutside.png'>",
-        "sentance":"<div class='sentance'> <h1>These flowers are hard to find but bumblebee thinks it is worth it!</h1> </div>",
-        "character":"<img src='img/chars/bee.png' class='charBumblebee' alt='Bumblebee'>"
+        "sentance":"<div class='sentance'> <h1>These flowers are hard to find</h1> </div>",
+        "character":"<img src='img/chars/bee.png' class='beePage2' alt='Bumblebee'>"
+    },
+    { 
+        "pageNumber":3,
+        "background":"<img class='bg' src='img/backgrounds/beehouseoutside.png'>",
+        "sentance":"<div class='sentance'> <h1>Bumblebee remembered theese flowers grow by the river</h1> </div>",
+        "character":"<img src='img/chars/beeWonder.png' class='beePage3' alt='Bumblebee'>"
+    },
+    { 
+        "pageNumber":4,
+        "background":"<img class='bg' src='img/backgrounds/forest.png'>",
+        "sentance":"<div class='sentance'> <h1>Bumblebee search the forest while heading to the beach</h1> </div>",
+        "character":"<img src='img/chars/beeFlying.png' class='beePage4' alt='Bumblebee'>"
+    },
+    { 
+        "pageNumber":5,
+        "background":"<img class='bg' src='img/backgrounds/forest.png'>",
+        "sentance":"<div class='sentance'> <h1>The flowers aren't in the forest</h1> </div>",
+        "character":"<img src='img/chars/bee.png' class='beePage5' alt='Bumblebee'>"
+    },
+    { 
+        "pageNumber":6,
+        "background":"<img class='bg' src='img/backgrounds/river.jpg'>",
+        "sentance":"<div class='sentance'> <h1>Bumblebee searches by the river for the flowers</h1> </div>",
+        "character":"<img src='img/chars/beeFlying.png' class='beePage6' alt='Bumblebee'>",
+        "special":"yes",
+        "specialContent":"<img src='img/chars/frog.png' class='frogPage6' alt='frog'>"
+    },
+    { 
+        "pageNumber":7,
+        "background":"<img class='bg' src='img/backgrounds/river.jpg'>",
+        "sentance":"<div class='sentance'> <h1>The flowers aren't by the river</h1> </div>",
+        "character":"<img src='img/chars/bee.png' class='beePage7' alt='Bumblebee'>",
+        "special":"yes",
+        "specialContent":"<img src='img/chars/frog.png' class='frogPage7' alt='frog'>"
+    },
+    { 
+        "pageNumber":8,
+        "background":"<img class='bg' src='img/backgrounds/river.jpg'>",
+        "sentance":"<div class='sentance'> <h1>Bumblebee asks the frogs, have you seen these flowers</h1> </div>",
+        "character":"<img src='img/chars/beeAskL.png' class='beePage8' alt='Bumblebee'>",
+        "special":"yes",
+        "specialContent":"<img src='img/chars/frog.png' class='frogPage8' alt='frog'>"
+    },
+    { 
+        "pageNumber":9,
+        "background":"<img class='bg' src='img/backgrounds/river.jpg'>",
+        "sentance":"<div class='sentance'> <h1>Frog hasn't seen the flowers but will help look for them</h1> </div>",
+        "character":"<img src='img/chars/bee.png' class='beePage9' alt='Bumblebee'>",
+        "special":"yes",
+        "specialContent":"<img src='img/chars/frog.png' class='frogPage9' alt='frog'>"
+    },
+    { 
+        "pageNumber":10,
+        "background":"<img class='bg' src='img/backgrounds/forestdark.jpg'>",
+        "sentance":"<div class='sentance'> <h1>Bumblebee searches deeper in the forest</h1> </div>",
+        "character":"<img src='img/chars/beeFlyingL.png' class='beePage10' alt='Bumblebee'>"
+    },
+    { 
+        "pageNumber":11,
+        "background":"<img class='bg' src='img/backgrounds/deepforest.jpg'>",
+        "sentance":"<div class='sentance'> <h1>Bumblebee can't find the flowers anywhere</h1> </div>",
+        "character":"<img src='img/chars/beeFlyingL.png' class='beePage11' alt='Bumblebee'>",
+        "special":"yes",
+        "specialContent":"<img src='img/chars/caterpillar.png' class='caterpillarPage11' alt='caterpillar'>"
+    },
+    { 
+        "pageNumber":12,
+        "background":"<img class='bg' src='img/backgrounds/deepforest.jpg'>",
+        "sentance":"<div class='sentance'> <h1>Bumblebee asks the caterpillar, have you seen these flowers</h1> </div>",
+        "character":"<img src='img/chars/beeAskR.png' class='beePage12' alt='Bumblebee'>",
+        "special":"yes",
+        "specialContent":"<img src='img/chars/caterpillar.png' class='caterpillarPage12' alt='caterpillar'>"
+    },
+    { 
+        "pageNumber":13,
+        "background":"<img class='bg' src='img/backgrounds/deepforest.jpg'>",
+        "sentance":"<div class='sentance'> <h1>Caterpillar hasn't seen the flowers but he can help look for them</h1> </div>",
+        "character":"<img src='img/chars/bee.png' class='beePage13' alt='Bumblebee'>",
+        "special":"yes",
+        "specialContent":"<img src='img/chars/caterpillar.png' class='caterpillarPage13' alt='caterpillar'>"
+    },
+    { 
+        "pageNumber":14,
+        "background":"<img class='bg' src='img/backgrounds/forestdark.jpg'>",
+        "sentance":"<div class='sentance'> <h1>Bumblebee decides to head home and search on the way</h1> </div>",
+        "character":"<img src='img/chars/beeFlyingL.png' class='beePage14' alt='Bumblebee'>"
+    },
+    { 
+        "pageNumber":15,
+        "background":"<img class='bg' src='img/backgrounds/forest.png'>",
+        "sentance":"<div class='sentance'> <h1>The flowers can't be found anywhere</h1> </div>",
+        "character":"<img src='img/chars/bee.png' class='beePage15' alt='Bumblebee'>"
+    },
+    { 
+        "pageNumber":16,
+        "background":"<img class='bg' src='img/backgrounds/beehouseoutside.png'>",
+        "sentance":"<div class='sentance'> <h1>Bumblebee finds frog and caterpillar at home</h1> </div>",
+        "character":"<img src='img/chars/beeFlyingL.png' class='beePage16' alt='Bumblebee'>",
+        "special":"yes",
+        "specialContent":"<img src='img/chars/caterpillar.png' class='caterpillarPage16' alt='caterpillar'><img src='img/chars/frog.png' class='frogPage16' alt='frog'>"
+    },
+    { 
+        "pageNumber":17,
+        "background":"<img class='bg' src='img/backgrounds/beehouseoutside.png'>",
+        "sentance":"<div class='sentance'> <h1>Bumblebee might not have found the flowers but he did find new friends</h1> </div>",
+        "character":"<img src='img/chars/bee.png' class='beePage17' alt='Bumblebee'>",
+        "special":"yes",
+        "specialContent":"<img src='img/chars/caterpillar.png' class='caterpillarPage17' alt='caterpillar'><img src='img/chars/frog.png' class='frogPage17' alt='frog'>"
     }
 	]
 }
