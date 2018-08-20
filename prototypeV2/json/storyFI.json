@@ -4,43 +4,43 @@
     { 
         "pageNumber":0,
         "background":"<img class='bg' src='img/backgrounds/beehouseinside.jpg'>",
-        "sentance":"<div class='sentance'> <h1>Mehiläinen herää ja on nälkäinen</h1> </div>",
+        "sentence":"<div class='sentence'> <h1>Mehiläinen herää ja on nälkäinen</h1> </div>",
         "character":"<img src='img/chars/beeHungry.png' class='beePage0' alt='Bumblebee'>"
     },
     { 
         "pageNumber":1,
         "background":"<img class='bg' src='img/backgrounds/beehouseinside.jpg'>",
-        "sentance":"<div class='sentance'> <h1>Mehiläinen haluaa löytää lempikukkansa</h1> </div>",
+        "sentence":"<div class='sentence'> <h1>Mehiläinen haluaa löytää lempikukkansa</h1> </div>",
         "character":"<img src='img/chars/beeWonder.png' class='beePage1' alt='Bumblebee'>"
     },
     { 
         "pageNumber":2,
         "background":"<img class='bg' src='img/backgrounds/beehouseoutside.png'>",
-        "sentance":"<div class='sentance'> <h1>Näitä kukkia on vaikea löytää</h1> </div>",
+        "sentence":"<div class='sentence'> <h1>Näitä kukkia on vaikea löytää</h1> </div>",
         "character":"<img src='img/chars/bee.png' class='beePage2' alt='Bumblebee'>"
     },
     { 
         "pageNumber":3,
         "background":"<img class='bg' src='img/backgrounds/beehouseoutside.png'>",
-        "sentance":"<div class='sentance'> <h1>Mehiläinen muistaa, että tällainen kukka kasvoi joen äärellä</h1> </div>",
+        "sentence":"<div class='sentence'> <h1>Mehiläinen muistaa, että tällainen kukka kasvoi joen äärellä</h1> </div>",
         "character":"<img src='img/chars/beeWonder.png' class='beePage3' alt='Bumblebee'>"
     },
     { 
         "pageNumber":4,
         "background":"<img class='bg' src='img/backgrounds/forest.png'>",
-        "sentance":"<div class='sentance'> <h1>Mehiläinen etsii kukkaa metsästä matkallaan joelle</h1> </div>",
+        "sentence":"<div class='sentence'> <h1>Mehiläinen etsii kukkaa metsästä matkallaan joelle</h1> </div>",
         "character":"<img src='img/chars/beeFlying.png' class='beePage4' alt='Bumblebee'>"
     },
     { 
         "pageNumber":5,
         "background":"<img class='bg' src='img/backgrounds/forest.png'>",
-        "sentance":"<div class='sentance'> <h1>Kukkaa ei löydy metsästä</h1> </div>",
+        "sentence":"<div class='sentence'> <h1>Kukkaa ei löydy metsästä</h1> </div>",
         "character":"<img src='img/chars/bee.png' class='beePage5' alt='Bumblebee'>"
     },
     { 
         "pageNumber":6,
         "background":"<img class='bg' src='img/backgrounds/river.jpg'>",
-        "sentance":"<div class='sentance'> <h1>Mehiläinen etsii kukkaa joelta</h1> </div>",
+        "sentence":"<div class='sentence'> <h1>Mehiläinen etsii kukkaa joelta</h1> </div>",
         "character":"<img src='img/chars/beeFlying.png' class='beePage6' alt='Bumblebee'>",
         "special":"yes",
         "specialContent":"<img src='img/chars/frog.png' class='frogPage6' alt='frog'>"
@@ -48,7 +48,7 @@
     { 
         "pageNumber":7,
         "background":"<img class='bg' src='img/backgrounds/river.jpg'>",
-        "sentance":"<div class='sentance'> <h1>Kukkaa ei löydy sieltäkään</h1> </div>",
+        "sentence":"<div class='sentence'> <h1>Kukkaa ei löydy sieltäkään</h1> </div>",
         "character":"<img src='img/chars/bee.png' class='beePage7' alt='Bumblebee'>",
         "special":"yes",
         "specialContent":"<img src='img/chars/frog.png' class='frogPage7' alt='frog'>"
@@ -56,7 +56,7 @@
     { 
         "pageNumber":8,
         "background":"<img class='bg' src='img/backgrounds/river.jpg'>",
-        "sentance":"<div class='sentance'> <h1>Mehiläinen kysyy sammakolta, onko hän nähnyt kukkaa</h1> </div>",
+        "sentence":"<div class='sentence'> <h1>Mehiläinen kysyy sammakolta, onko hän nähnyt kukkaa</h1> </div>",
         "character":"<img src='img/chars/beeAskL.png' class='beePage8' alt='Bumblebee'>",
         "special":"yes",
         "specialContent":"<img src='img/chars/frog.png' class='frogPage8' alt='frog'>"
@@ -64,7 +64,7 @@
     { 
         "pageNumber":9,
         "background":"<img class='bg' src='img/backgrounds/river.jpg'>",
-        "sentance":"<div class='sentance'> <h1>Sammakko ei ole nähnyt kukkaa, mutta hän tarjoutuu auttamaan kukan etsimisessä</h1> </div>",
+        "sentence":"<div class='sentence'> <h1>Sammakko ei ole nähnyt kukkaa, mutta hän tarjoutuu auttamaan kukan etsimisessä</h1> </div>",
         "character":"<img src='img/chars/bee.png' class='beePage9' alt='Bumblebee'>",
         "special":"yes",
         "specialContent":"<img src='img/chars/frog.png' class='frogPage9' alt='frog'>"
@@ -72,13 +72,13 @@
     { 
         "pageNumber":10,
         "background":"<img class='bg' src='img/backgrounds/forestdark.jpg'>",
-        "sentance":"<div class='sentance'> <h1>Mehiläinen päättää mennä syvemmälle metsään</h1> </div>",
+        "sentence":"<div class='sentence'> <h1>Mehiläinen päättää mennä syvemmälle metsään</h1> </div>",
         "character":"<img src='img/chars/beeFlyingL.png' class='beePage10' alt='Bumblebee'>"
     },
     { 
         "pageNumber":11,
         "background":"<img class='bg' src='img/backgrounds/deepforest.jpg'>",
-        "sentance":"<div class='sentance'> <h1>Mehiläinen ei löydä kukkaa sieltäkään</h1> </div>",
+        "sentence":"<div class='sentence'> <h1>Mehiläinen ei löydä kukkaa sieltäkään</h1> </div>",
         "character":"<img src='img/chars/beeFlyingL.png' class='beePage11' alt='Bumblebee'>",
         "special":"yes",
         "specialContent":"<img src='img/chars/caterpillar.png' class='caterpillarPage11' alt='caterpillar'>"
@@ -86,7 +86,7 @@
     { 
         "pageNumber":12,
         "background":"<img class='bg' src='img/backgrounds/deepforest.jpg'>",
-        "sentance":"<div class='sentance'> <h1>Mehiläinen kysyy toukalta, onko hän nähnyt kukkaa</h1> </div>",
+        "sentence":"<div class='sentence'> <h1>Mehiläinen kysyy toukalta, onko hän nähnyt kukkaa</h1> </div>",
         "character":"<img src='img/chars/beeAskR.png' class='beePage12' alt='Bumblebee'>",
         "special":"yes",
         "specialContent":"<img src='img/chars/caterpillar.png' class='caterpillarPage12' alt='caterpillar'>"
@@ -94,7 +94,7 @@
     { 
         "pageNumber":13,
         "background":"<img class='bg' src='img/backgrounds/deepforest.jpg'>",
-        "sentance":"<div class='sentance'> <h1>Toukka ei ole nähnyt kukkaa, mutta hän tarjoutuu auttamaan kukan etsimisessä</h1> </div>",
+        "sentence":"<div class='sentence'> <h1>Toukka ei ole nähnyt kukkaa, mutta hän tarjoutuu auttamaan kukan etsimisessä</h1> </div>",
         "character":"<img src='img/chars/bee.png' class='beePage13' alt='Bumblebee'>",
         "special":"yes",
         "specialContent":"<img src='img/chars/caterpillar.png' class='caterpillarPage13' alt='caterpillar'>"
@@ -102,19 +102,19 @@
     { 
         "pageNumber":14,
         "background":"<img class='bg' src='img/backgrounds/forestdark.jpg'>",
-        "sentance":"<div class='sentance'> <h1>Mehiläinen palaa kotiinsa ja etsii kukkaa matkallaan</h1> </div>",
+        "sentence":"<div class='sentence'> <h1>Mehiläinen palaa kotiinsa ja etsii kukkaa matkallaan</h1> </div>",
         "character":"<img src='img/chars/beeFlyingL.png' class='beePage14' alt='Bumblebee'>"
     },
     { 
         "pageNumber":15,
         "background":"<img class='bg' src='img/backgrounds/forest.png'>",
-        "sentance":"<div class='sentance'> <h1>Kukkaa ei löydy mistään</h1> </div>",
+        "sentence":"<div class='sentence'> <h1>Kukkaa ei löydy mistään</h1> </div>",
         "character":"<img src='img/chars/bee.png' class='beePage15' alt='Bumblebee'>"
     },
     { 
         "pageNumber":16,
         "background":"<img class='bg' src='img/backgrounds/beehouseoutside.png'>",
-        "sentance":"<div class='sentance'> <h1>Mehiläinen löytää sammakon ja toukan kotoaan</h1> </div>",
+        "sentence":"<div class='sentence'> <h1>Mehiläinen löytää sammakon ja toukan kotoaan</h1> </div>",
         "character":"<img src='img/chars/beeFlyingL.png' class='beePage16' alt='Bumblebee'>",
         "special":"yes",
         "specialContent":"<img src='img/chars/caterpillar.png' class='caterpillarPage16' alt='caterpillar'><img src='img/chars/frog.png' class='frogPage16' alt='frog'>"
@@ -122,7 +122,7 @@
     { 
         "pageNumber":17,
         "background":"<img class='bg' src='img/backgrounds/beehouseoutside.png'>",
-        "sentance":"<div class='sentance'> <h1>He eivät löytäneet kukkaa, mutta ainakin he saivat uusia ystäviä</h1> </div>",
+        "sentence":"<div class='sentence'> <h1>He eivät löytäneet kukkaa, mutta ainakin he saivat uusia ystäviä</h1> </div>",
         "character":"<img src='img/chars/bee.png' class='beePage17' alt='Bumblebee'>",
         "special":"yes",
         "specialContent":"<img src='img/chars/caterpillar.png' class='caterpillarPage17' alt='caterpillar'><img src='img/chars/frog.png' class='frogPage17' alt='frog'>"

@@ -71,7 +71,7 @@ function newPage(page) {
         console.log("Page is on " + page.pageNumber);
         let pageContent = "";
         pageContent += page.background;
-        pageContent += page.sentance;
+        pageContent += page.sentence;
         pageContent += page.character;
         if (page.special == "yes") {
             pageContent += page.specialContent;

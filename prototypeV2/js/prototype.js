@@ -66,7 +66,7 @@ function charOptions(char) {
         options += '<div id="opt1" class="optionsContainer" style=" visibility: hidden;">';
         options += '<img src="img/chars/bee.png">';
         options += '<a href="storyBeeEN.html" class="storySelection1">';
-        options += '<button class="btn"><h2>Bumblebee&#39s Story</h2></button>';
+        options += '<button class="btn btn-dark"><h2>Bumblebee&#39s Story</h2></button>';
         options += '</a>';
         options += '<i class="cancel fas fa-times fa-2x"></i>';
         options += '</div>';
