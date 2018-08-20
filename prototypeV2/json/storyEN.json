@@ -22,7 +22,7 @@
     { 
         "pageNumber":3,
         "background":"<img class='bg' src='img/backgrounds/beehouseoutside.png'>",
-        "sentance":"<div class='sentance'> <h1>Bumblebee remembered theese flowers grow by the river</h1> </div>",
+        "sentance":"<div class='sentance'> <h1>Bumblebee remembered these flowers grow by the river</h1> </div>",
         "character":"<img src='img/chars/beeWonder.png' class='beePage3' alt='Bumblebee'>"
     },
     { 
